@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<atlassian-plugin key="dev.dts.cql.properties.cql-properties-tests" name="Properties to CQL" plugins-version="2"> 
+  <plugin-info> 
+    <description>This plugin adds content properties to CQL indexing.</description>  
+    <version>1.0.0-SNAPSHOT</version>  
+    <vendor name="DTS Development" url="https://dts.dev"/> 
+  </plugin-info>  
+  <!-- from our base plugin -->  
+  <component-import key="myComponent" interface="dev.dts.cql.properties.api.MyPluginComponent"/>  
+  <!-- from the product container -->  
+  <component-import key="applicationProperties" interface="com.atlassian.sal.api.ApplicationProperties"/>  
+  <component key="my-component-wired-test" class="it.dev.dts.cql.properties.MyComponentWiredTest" public="true">
+    <interface>it.dev.dts.cql.properties.MyComponentWiredTest</interface>
+    <service-properties>
+      <entry key="inProductTest" value="true"/>
+    </service-properties>
+  </component>
+</atlassian-plugin>

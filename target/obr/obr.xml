@@ -1,0 +1,22 @@
+<repository lastmodified='20231204121933.249'>
+  <resource id='dev.dts.cql.properties.cql-properties/1.0.0.SNAPSHOT' symbolicname='dev.dts.cql.properties.cql-properties' presentationname='Properties to CQL' uri='cql-properties-1.0.0-SNAPSHOT.jar' version='1.0.0.SNAPSHOT'>
+    <description>This plugin adds content properties to CQL indexing.</description>
+    <size>212174</size>
+    <documentation>https://dts.dev</documentation>
+    <capability name='bundle'>
+      <p n='symbolicname' v='dev.dts.cql.properties.cql-properties'/>
+      <p n='presentationname' v='Properties to CQL'/>
+      <p n='version' t='version' v='1.0.0.SNAPSHOT'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='dev.dts.cql.properties.api'/>
+      <p n='version' t='version' v='1.0.0'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.atlassian.plugin.spring.scanner.annotation.export))' extend='false' multiple='false' optional='false'>Import package com.atlassian.plugin.spring.scanner.annotation.export</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.plugin.spring.scanner.annotation.imports))' extend='false' multiple='false' optional='false'>Import package com.atlassian.plugin.spring.scanner.annotation.imports</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.sal.api))' extend='false' multiple='false' optional='false'>Import package com.atlassian.sal.api</require>
+    <require name='package' filter='(&amp;(package=dev.dts.cql.properties.api))' extend='false' multiple='false' optional='false'>Import package dev.dts.cql.properties.api</require>
+    <require name='package' filter='(&amp;(package=javax.inject))' extend='false' multiple='false' optional='false'>Import package javax.inject</require>
+  </resource>
+</repository>

@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Atlassian-Build-Date: 2023-12-04T00:19:32+0500
+Atlassian-Plugin-Key: dev.dts.cql.properties.cql-properties
+Bnd-LastModified: 1701631172963
+Build-Jdk: 1.8.0_251
+Built-By: hardy
+Bundle-Description: This plugin adds content properties to CQL indexing.
+Bundle-DocURL: https://dts.dev
+Bundle-ManifestVersion: 2
+Bundle-Name: Properties to CQL
+Bundle-SymbolicName: dev.dts.cql.properties.cql-properties
+Bundle-Vendor: DTS Development
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: dev.dts.cql.properties.api;version="1.0.0"
+Import-Package: com.atlassian.plugin.spring.scanner.annotation.export,co
+ m.atlassian.plugin.spring.scanner.annotation.imports,com.atlassian.sal.
+ api,dev.dts.cql.properties.api,javax.inject
+Spring-Context: *
+Tool: Bnd-3.5.0.201709291849
