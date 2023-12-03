@@ -1,2 +1,2 @@
-# confluence-cql-properties
+# Properties to CQL
 This plugin adds content properties to CQL indexing.
