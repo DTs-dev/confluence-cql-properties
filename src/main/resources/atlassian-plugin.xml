@@ -7,9 +7,9 @@
         <param name="plugin-logo">images/pluginLogo.png</param>
     </plugin-info>
 
-    <content-property-index-schema key="amoleadid-key">
-        <key property-key="amoLeadId">
-                <extract path="value" type="string" />
+    <content-property-index-schema key="amoCrmLead-key">
+        <key property-key="amoCrmLead">
+                <extract path="id" type="string" />
         </key>
     </content-property-index-schema>
     

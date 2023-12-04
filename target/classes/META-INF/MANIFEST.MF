@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
-Atlassian-Build-Date: 2023-12-04T00:19:32+0500
+Atlassian-Build-Date: 2023-12-04T15:24:11+0500
 Atlassian-Plugin-Key: dev.dts.cql.properties.cql-properties
-Bnd-LastModified: 1701631172963
+Bnd-LastModified: 1701685452513
 Build-Jdk: 1.8.0_251
 Built-By: hardy
 Bundle-Description: This plugin adds content properties to CQL indexing.

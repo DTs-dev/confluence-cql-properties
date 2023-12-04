@@ -1,7 +1,7 @@
-<repository lastmodified='20231204121933.249'>
+<repository lastmodified='20231204032412.841'>
   <resource id='dev.dts.cql.properties.cql-properties/1.0.0.SNAPSHOT' symbolicname='dev.dts.cql.properties.cql-properties' presentationname='Properties to CQL' uri='cql-properties-1.0.0-SNAPSHOT.jar' version='1.0.0.SNAPSHOT'>
     <description>This plugin adds content properties to CQL indexing.</description>
-    <size>212174</size>
+    <size>212169</size>
     <documentation>https://dts.dev</documentation>
     <capability name='bundle'>
       <p n='symbolicname' v='dev.dts.cql.properties.cql-properties'/>
