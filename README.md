@@ -1,7 +1,7 @@
 # Confluence content properties to CQL
 This plugin adds content properties to CQL indexing.
 
-The plugin already has a property called `amoCrmLead`, it is preset, since this plugin is recommended for use with the [amocrm-jira-confluence](https://github.com/DTs-dev/amocrm-jira-confluence) integration module.
+The plugin already has a property called `amoCrmLead`, it is preset, since this plugin is recommended for use with the [amocrm-jira-confluence](/../../../amocrm-jira-confluence) integration module.
 
 ## Usage
 
@@ -13,7 +13,7 @@ A plugin ready for installation with a preset property, assembled in "jar" forma
 
 ## Adding Properties to a Plugin
 
-To add a new property to the plugin, you need to add the following lines to the file `src/main/resources/atlassian-plugin.xml`: 
+To add a new property to the plugin, you need to add the following lines to the `src/main/resources/atlassian-plugin.xml` file, inside the `<atlassian-plugin>` element: 
 ```
 <content-property-index-schema key="yourProperty-key">
     <key property-key="yourProperty">
